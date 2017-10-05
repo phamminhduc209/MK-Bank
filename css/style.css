@@ -181,9 +181,39 @@ header {
 	left: 0;
 	text-align: center;
 }
-.block-img .description h2 {
-	font-size: 20px;
+.block-img .description .title {
+  position: relative;
+}
+.block-img .description .title>span {
+	font-size: 32px;
 	color: #fff;
+}
+.block-img .description .title .noted {
+  font-size: 20px;
+  width: 154px;
+  height: 154px;
+  text-align: center;
+  border-radius: 100px;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  display: inline-block;
+  background: url(../images/bg/sun.png) no-repeat;
+  color: #004392;
+  line-height: 26px;
+  padding: 38px 0 0;
+  position: absolute;
+  display: table-cell;
+  right: 24.5%;
+  top: 11%;
+}
+.block-img .description .sub-title {
+  font-size: 70px;
+  color: #ffff00;
+  text-shadow: 0 0 10px #000;
+  font-family: 'Hiragino Kaku Gothic Pr6n';
+  letter-spacing: 1px;
+  font-weight: bold;
+  line-height: 112px;
 }
 
 /* Block Info
