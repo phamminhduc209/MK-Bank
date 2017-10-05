@@ -12,7 +12,20 @@
 
 /*===== Import Files =====*/
 @import url(../lib/font-awesome/font-awesome.min.css);
+
 /* Fonts */
+@font-face {
+  font-family: 'Hiragino Kaku Gothic Pro';
+  src: url("../fonts/hiragino/hiraginokakugothicPro.otf?v=4.6.3");
+  font-weight: normal;
+  font-style: normal; 
+}
+@font-face {
+  font-family: 'Hiragino Kaku Gothic Pr6n';
+  src: url("../fonts/hiragino/hiraginokakugothic-pr6n.otf?v=4.6.3");
+  font-weight: normal;
+  font-style: normal; 
+}
 @font-face {
   font-family: 'Hiragino Kaku Gothic W3';
   src: url("../fonts/hiragino/hirakakupro-w3.otf?v=4.6.3");
@@ -34,7 +47,10 @@
 body {
   background-color: #fff;
   color: #000000;
-  font: 14px 'Hiragino Kaku Gothic W3', Helvetica, sans-serif;
+  // font-style: 15px;
+  // font-family: 'Hiragino Kaku Gothic Pro', Helvetica, sans-serif; 
+  // font: 14px 'Hiragino Kaku Gothic Pro', Helvetica, sans-serif;
+  font-size: 100%;     /* flexible baseline */
   font-style: normal;
   font-weight: normal;
   overflow-x: hidden;
