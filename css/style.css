@@ -362,14 +362,15 @@ header {
 .block-teacher .image {
   float: left;
   margin-right: 38px;
+  margin-left: 50px;
   width: 330px;
 }
 .block-teacher .description {
 	float: left;
-  width: -moz-calc(100% - 368px);
-  width: -webkit-calc(100% - 368px);
-  width: -o-calc(100% - 368px);
-  width: calc(100% - 368px);
+  width: -moz-calc(100% - 418px);
+  width: -webkit-calc(100% - 418px);
+  width: -o-calc(100% - 418px);
+  width: calc(100% - 418px);
 }
 .block-teacher .description .title {
   font-family: 'Hiragino Kaku Gothic W6';  
@@ -420,7 +421,6 @@ header {
 }
 .block-point ul li {
   position: relative;
-  font-family: 'Hiragino Kaku Gothic W3';
   font-size: 25px;
   line-height: 1;
   margin-bottom: 30px;
@@ -589,7 +589,7 @@ footer {
 .block-widget-link ul li a:hover:before {
   width: 100%;
 }
-
+/* Widget Info */
 .block-ft-info {
   margin-top: 55px;
 }
