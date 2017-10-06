@@ -43,14 +43,14 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 body {
   background-color: #fff;
   color: #000000;
   // font-style: 15px;
-  // font-family: 'Hiragino Kaku Gothic Pro', Helvetica, sans-serif; 
-  // font: 14px 'Hiragino Kaku Gothic Pro', Helvetica, sans-serif;
-  font-size: 100%;     /* flexible baseline */
+  // font-family: "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic";
+  font-family:"Hiragino Kaku Gothic W3", "Hiragino Kaku Gothic Pro",Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
   font-style: normal;
   font-weight: normal;
   overflow-x: hidden;
@@ -375,6 +375,9 @@ header {
   overflow: hidden;
   padding-top: 50px;
 }
+.block-teacher .inner {
+  box-sizing: unset;
+}
 .block-teacher .image {
   float: left;
   margin-right: 38px;
@@ -419,6 +422,9 @@ header {
   position: relative;
   overflow: hidden;
   padding: 61px 0 68px;
+}
+.block-point .inner {
+  box-sizing: unset;
 }
 .block-point .block-point-pad {
   padding: 0 170px;
@@ -490,6 +496,10 @@ header {
   position: relative;
   overflow: hidden;
   margin-bottom: 25px;
+}
+.block-zirei .box-item .image img {
+  width: 100%;
+  margin: 0 auto;
 }
 .block-zirei .box-item .image:after {
   position: absolute;
