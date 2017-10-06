@@ -375,9 +375,9 @@ header {
   overflow: hidden;
   padding-top: 50px;
 }
-.block-teacher .inner {
-  box-sizing: unset;
-}
+// .block-teacher .inner {
+//   box-sizing: unset;
+// }
 .block-teacher .image {
   float: left;
   margin-right: 38px;
@@ -422,9 +422,6 @@ header {
   position: relative;
   overflow: hidden;
   padding: 61px 0 68px;
-}
-.block-point .inner {
-  box-sizing: unset;
 }
 .block-point .block-point-pad {
   padding: 0 170px;
