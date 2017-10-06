@@ -11,6 +11,7 @@
 /*==========*/
 
 /*===== Import Files =====*/
+@import url(../lib/bootstrap/bootstrap.min.css);
 @import url(../lib/font-awesome/font-awesome.min.css);
 
 /* Fonts */
@@ -33,19 +34,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-// *:before, *:after {
-//   /* Chrome 9-, Safari 5-, iOS 4.2-, Android 3-, Blackberry 7- */
-//   -webkit-box-sizing: border-box; 
-//   /* Firefox (desktop or Android) 28- */
-//   -moz-box-sizing: border-box;
-//   /* Firefox 29+, IE 8+, Chrome 10+, Safari 5.1+, Opera 9.5+, iOS 5+, Opera Mini Anything, Blackberry 10+, Android 4+ */
-//   box-sizing: border-box;
-// }
 body {
   background-color: #fff;
   color: #000000;
-  // font-style: 15px;
-  // font-family: "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic";
   font-family:"Hiragino Kaku Gothic W3", "Hiragino Kaku Gothic Pro",Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -120,21 +111,21 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   width: 100%;
 }
-.inner {
-  width: 1350px;
-  padding: 0 121px;
-  margin: 0 auto;
-  box-sizing: border-box;
-}
-.inner:before,
-.inner:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-.hide {
-  display: none;
-}
+// .inner {
+//   width: 1350px;
+//   padding: 0 121px;
+//   margin: 0 auto;
+//   box-sizing: border-box;
+// }
+// .inner:before,
+// .inner:after {
+//   content: "";
+//   display: table;
+//   clear: both;
+// }
+// .hide {
+//   display: none;
+// }
 /* Table Cell */
 .box-table {
   display: table;
@@ -155,16 +146,7 @@ h1, h2, h3, h4, h5, h6 {
   clear: both;
 }
 
-/* Text Algin */
-.text-left {
-  text-align: left;
-}
-.text-center {
-  text-align: center;
-}
-.text-right {
-  text-align: right;
-}
+/* Link */
 .link {
   color: #0B4699;
   position: relative;
@@ -208,27 +190,6 @@ h1, h2, h3, h4, h5, h6 {
   color: #000000 !important;
   text-align: center !important;
   margin-bottom: 40px !important;
-}
-.btn {
-  display: inline-block;
-  padding: 6px 12px;
-  margin-bottom: 0;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.42857143;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: middle;
-  -ms-touch-action: manipulation;
-  touch-action: manipulation;
-  cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  background-image: none;
-  border: 1px solid transparent;
-  border-radius: 4px;
 }
 .btn-apply {
   background: linear-gradient(141deg, #f07800 0%, #f09600 85%);
@@ -314,12 +275,6 @@ header {
   font-weight: bold;
   color: #fff;
   margin-bottom: 15px;
-  display: -webkit-box;      /* iOS 6-, Safari 3.1-6 */
-  display: -moz-box;         /* Firefox 19 */
-  display: -ms-flexbox;      /* IE 10 */
-  display: -webkit-flex;     /* Chrome */
-  display: flex;
-  flex-direction: column;
 }
 .block-info p:last-child {
   margin-bottom: 0;
@@ -337,19 +292,7 @@ header {
   text-align: center;
   margin-bottom: 60px;
 }
-.block-work .box {
-  margin-left: -15px;
-  margin-right: -15px;
-}
 .block-work .box-item {
-  float: left;
-  box-sizing: border-box;
-  width: -moz-calc(100% / 3);
-  width: -webkit-calc(100% / 3);
-  width: -o-calc(100% / 3);
-  width: calc(100% / 3);
-  padding-left: 15px;
-  padding-right: 15px;
   text-align: center;
 }
 .block-work .box-item .title {
@@ -383,9 +326,6 @@ header {
   overflow: hidden;
   padding-top: 50px;
 }
-.block-teacher .inner {
-  box-sizing: unset;
-}
 .block-teacher .image {
   float: left;
   margin-right: 38px;
@@ -410,26 +350,12 @@ header {
   font-size: 20px;
   margin-bottom: 5px;
   color: #fff;
-  display: -webkit-box;      /* iOS 6-, Safari 3.1-6 */
-  display: -moz-box;         /* Firefox 19 */
-  display: -ms-flexbox;      /* IE 10 */
-  display: -webkit-flex;     /* Chrome */
-  display: flex; 
-  flex-direction: column;
-  width: 100%;
 }
 .block-teacher .description .sub-title {
   font-size: 32px;
   font-weight: normal;
   color: #fff;
   margin-bottom: 10px;
-  display: -webkit-box;      /* iOS 6-, Safari 3.1-6 */
-  display: -moz-box;         /* Firefox 19 */
-  display: -ms-flexbox;      /* IE 10 */
-  display: -webkit-flex;     /* Chrome */
-  display: flex; 
-  flex-direction: column;
-  width: 100%;
 }
 .block-teacher .description .des {
   font-size: 18px;
@@ -490,12 +416,6 @@ header {
   width: -o-calc(100% - 38px);
   width: calc(100% - 38px);
   font-size: 25px;
-  display: -webkit-box;      /* iOS 6-, Safari 3.1-6 */
-  display: -moz-box;         /* Firefox 19 */
-  display: -ms-flexbox;      /* IE 10 */
-  display: -webkit-flex;     /* Chrome */
-  display: flex; 
-  flex-direction: column;
 }
 
 /* Block Zirei
@@ -506,20 +426,12 @@ header {
   overflow: hidden;
   padding: 60px 0 80px;
 }
-.block-zirei .inner >.block-title .title {
+.block-zirei .container >.block-title .title {
   font-family: 'Hiragino Kaku Gothic W6';
   font-size: 30px;
   color: #1450a0;
   text-align: center;
   margin-bottom: 55px;
-  display: -webkit-box;      /* iOS 6-, Safari 3.1-6 */
-  display: -moz-box;         /* Firefox 19 */
-  display: -ms-flexbox;      /* IE 10 */
-  display: -webkit-flex;     /* Chrome */
-  display: flex; 
-  flex-direction: column;
-  justify-content: center;
-  width: 100%;
 }
 .block-zirei .box {
   margin-left: -30px;
@@ -566,7 +478,7 @@ header {
   transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,-100%,0);
 }
 .block-zirei .box-item .image:hover:after {
-    -webkit-transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,100%,0);
+  -webkit-transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,100%,0);
   transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,115%,0);
 }
 
