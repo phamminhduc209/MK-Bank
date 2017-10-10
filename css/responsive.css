@@ -1,0 +1,174 @@
+@charset "utf-8";
+	/**
+		* Description: CSS
+		* Version: 1.0.0
+		* Last update: 2017/08/20
+		* Author: Duc PM <minhducpham.it@gmail.com> - ducpm.com
+		*
+	    [Let press Ctrl + f and type of paste the key, then press Enter to search the content ] Title
+	    Example : You want Import Files => Title is Import Files, or Fonts => Title is Fonts
+
+		* Summary:
+		*
+			*	Styles for devices max 1200px
+			*	Styles for devices max 1200px
+			*	Styles for devices max 1024px
+			*	Styles for devices max 800px
+			*	Styles for devices min 768px
+			*	Styles for devices max 767px
+			*	Styles for devices max 667px
+			*	Styles for devices max 568px
+			*	Styles for devices max 480px
+			*	Styles for devices max 414px
+			*	Styles for devices max 320px
+	*/
+
+/*----------------
+[Styles for devices min 1200px
+*/
+@media (min-width: 1200px) {}
+
+
+/*----------------
+[Styles for devices max 1024px
+*/
+@media (max-width: 1024px) {}
+
+/*----------------
+[Styles for devices max 800px
+*/
+@media (max-width: 800px) {}
+
+/*----------------
+[Styles for devices min 768px
+*/
+@media (max-width: 768px) {
+	.block-info p {
+		font-size: 23px;
+	}
+	.block-work .box-item .title {
+		font-size: 26px;
+	}
+	.block-work .box-item .text {
+		font-size: 14px;
+	}
+	.block-teacher {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	.block-teacher .image {
+		margin-right: 0;
+		margin-left: 0;
+		width: 100%;
+	}
+	.block-teacher .image img {
+		margin: 0 auto;
+	}
+	.block-teacher .description {
+		width: -moz-calc(100% - 0px);
+		width: -webkit-calc(100% - 0px);
+		width: -o-calc(100% - 0px);
+		width: calc(100% - 0px);
+		text-align: center;
+		margin-top: 10px;
+	}
+	.block-teacher .description .title {
+		margin-left: 0;
+	}
+	.block-point .block-point-pad {
+		padding: 0 15px;
+	}
+}
+
+/*----------------
+[Styles for devices max 767px
+*/
+@media (max-width: 767px) {
+	.block-work {
+		padding: 30px 0;
+	}
+	.block-work .box-item {
+		margin-bottom: 15px;
+		border-bottom: 1px solid #ddd;
+		padding-bottom: 5px;
+	}
+	.block-zirei .item {
+		margin-bottom: 15px;
+	}
+}
+
+/*----------------
+[Styles for devices max 667px
+*/
+@media (max-width: 667px) {}
+
+/*----------------
+[Styles for devices max 568px
+*/
+@media (max-width: 568px) {}
+
+/*----------------
+[Styles for devices max 480px
+*/
+@media (max-width: 480px) {}
+
+/*----------------
+[Styles for devices max 414px
+*/
+@media (max-width: 414px) {
+	.block-point {
+		padding: 30px 0;
+	}
+	.block-point .block-title .title {
+		font-size: 27px;
+	}
+	.block-point ul li .text {
+		font-size: 18px;
+	}
+	.block-point .block-point-item {
+		margin-bottom: 25px;
+	}
+	.btn-apply {
+		width: 100%;
+		padding: 6px 12px;
+		height: auto;
+		line-height: inherit;
+	}
+}
+
+/*----------------
+[Styles for devices max 375px
+*/
+@media (max-width: 375px) {}
+
+/*----------------
+[Styles for devices max 320px
+*/
+@media (max-width: 320px) {
+	footer {
+		padding: 15px 0 30px;
+	}
+	.block-widget-link ul li {
+		display: block;
+		padding-left: 10px;
+		margin-bottom: 5px;
+	}
+	.block-widget-link ul li:after {
+		content: "\f054";
+		color: #d3d3d3;
+		font-family: "FontAwesome";
+		position: absolute;
+		top: 0;
+		right: auto;
+		left: -5px;
+	}
+	.block-widget-link ul li:last-child:after {
+		display: inline-block;
+	}
+	.block-ft-info {
+		margin-top: 20px;
+	}
+	.block-widget-social span:first-child {
+		display: block;
+	}
+}
